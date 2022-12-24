@@ -1,0 +1,30 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "this is a command line calculator",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "calc": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aronroyca/calc.git"
+  },
+  "keywords": [
+    "caluclator",
+    "command",
+    "line"
+  ],
+  "author": "Aron Roy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aronroyca/calc/issues"
+  },
+  "homepage": "https://github.com/aronroyca/calc#readme",
+  "dependencies": {
+    "yargs": "^17.6.2"
+  }
+}
